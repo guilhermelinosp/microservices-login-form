@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <Content Include="Properties\launchSettings.json" />
+	  <Content Include="Properties\serviceDependencies.json" />
+	  <Content Include="Properties\serviceDependencies.local.json" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="C:\Users\guilh\OneDrive\Desktop\Solution\Test.API\.editorconfig" />
+	  <None Include="Properties\serviceDependencies.local.json.user" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.0.143" />
+		<PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.8" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.0" />
+		<PackageReference Include="MongoDB.Driver" Version="2.20.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.9" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
+		<PackageReference Include="Twilio" Version="6.10.0" />
+		<PackageReference Include="SendGrid" Version="9.28.1" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EditorConfigFiles Remove="C:\Users\guilh\OneDrive\Desktop\Solution\Test.API\.editorconfig" />
+	</ItemGroup>
+
+
+</Project>

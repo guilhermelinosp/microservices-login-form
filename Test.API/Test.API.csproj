@@ -22,7 +22,7 @@
 		<PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
 		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
 		<PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.8" />
-		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.0" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.34.0" />
 		<PackageReference Include="MongoDB.Driver" Version="2.20.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.9" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.9" />
